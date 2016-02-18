@@ -1,0 +1,14 @@
+dependencies {
+    compile project(':main')
+    compile project(':basicweb')
+    compile project(':dbcontroller')
+    compile project(':AdminModule')
+    compile project(':AuthUsersModule')
+    compile project(':CustomerModule')
+    compile project(':GrabberModule')
+    compile project(':OrderModule')
+    compile project(':StockManagmentModule')
+
+
+
+}
