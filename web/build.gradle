@@ -1,0 +1,29 @@
+
+apply plugin: 'war'
+apply plugin: 'jetty'
+
+
+
+dependencies {
+    compile group: 'org.apache.logging.log4j', name: 'log4j-1.2-api', version: '2.0'
+    compile project(':main')
+    compile project(':basicweb')
+    compile project(':dbcontroller')
+    compile project(':AdminModule')
+    compile project(':AuthUsersModule')
+    compile project(':CustomerModule')
+    compile project(':GrabberModule')
+    compile project(':OrderModule')
+    compile project(':StockManagmentModule')
+    compile project(':JourneyManagmentModule')
+
+    compile 'commons-fileupload:commons-fileupload:1.3.1'
+
+
+
+}
+
+//jettyRun {
+//    httpPort = 9090
+//}
+

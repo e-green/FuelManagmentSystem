@@ -1,0 +1,28 @@
+rootProject.name = 'server'
+
+include 'main'
+
+include 'web'
+
+include 'AdminModule'
+
+include 'AuthUsersModule'
+
+include 'CustomerModule'
+
+include 'GrabberModule'
+
+include 'OrderModule'
+
+include 'StockManagmentModule'
+
+include 'dbcontroller'
+
+include 'JourneyManagmentModule'
+
+include 'basicweb'
+
+
+
+
+
